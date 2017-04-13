@@ -1,6 +1,6 @@
 CC=gcc
-CFLAGS=-O2
-LIBS=-lm -lcurl -lcrypto -lconfig
+CFLAGS=-O2 -std=gnu11
+LIBS=-lm -lcurl -lcrypto -lconfig -pthread
 
 mlb = mlb
 

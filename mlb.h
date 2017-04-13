@@ -1,3 +1,4 @@
+#define _GNU_SOURCE 1
 #ifndef MLB_HLS_H
 #define MLB_HLS_H
 
